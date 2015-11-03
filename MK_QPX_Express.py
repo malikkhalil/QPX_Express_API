@@ -11,8 +11,7 @@ import os
 #hi
 __all__ = ['create_json_request', 'getjson_flight_prices', 'get_average_flight_price', 'parsejson_flight_prices', 'merge_queries_into_summary', 'NUMBER_API_KEYS']
 __author__ = 'malikk'
-API_KEYS = ['AIzaSyBPAhGun08oPp79XxnqfYkukaShqFL0iMs', 'AIzaSyBBZgOxX2NzQFE7ua_I9_Cym5i6N0NYf20', 'AIzaSyBtGnEG3rrv8wy-h4OOZMs0Az51xURTBuA', 'AIzaSyDeEZw0BkvoFgM11CVceitinBm_--Bo2g0', 'AIzaSyAZ4VudGpgcO6KWWANbNJe4yo8jU19jCo8', 'AIzaSyAIJ9xgn47tWcEg9vqq647ukTc_7b85_SM', 'AIzaSyBDyku0b3ZGeIZF4mDl1hu81WqXyVsXLa8', 'AIzaSyBZRdB2j8PvWbMTCrJPrZplNBh1NAwImbc', 'AIzaSyDbZ7eA5oErLVG9ZtkcA928kFuyVNIY-8s']
-NUMBER_API_KEYS = len(API_KEYS)
+#hi there
 def create_json_request(origin, destination, date, roundtrip=False, returndate=None, solutions=50):
     """
     Returns a json request for the API based on the inputs provided.
